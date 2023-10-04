@@ -69,6 +69,7 @@ if (info == "age") {
 } else {
   alert(`Имя пользователя: ` + user.name);
 }
+
 //Задание 10
 let userName;
 userName = prompt(`Как вас зовут?`);
