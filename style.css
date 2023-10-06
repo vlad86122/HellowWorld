@@ -151,6 +151,53 @@ body {
   transform: scale(1.05);
 }
 
+.sectionTwo {
+  padding-top: 233px;
+  display: flex;
+  padding-bottom: 233px;
+  background-color: #000915;
+  justify-content: space-between;
+}
+.sectionTwo_box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 32px;
+  align-items: flex-start;
+}
+.sectionTwo_box_h2 {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sectionTwo_box_p {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 594px;
+}
+.sectionTwo_box_button {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 30px;
+  background: #9C0332;
+  width: 234px;
+  height: 48px;
+  border: 1px;
+  transition: all 0.2s;
+}
+.sectionTwo_box_button:hover {
+  transform: scale(1.05);
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -211,5 +258,58 @@ body {
   .section_box_link_3 {
     width: 343px;
     height: 300px;
+  }
+  .sectionTwo {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .sectionTwo_box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+  .sectionTwo_box_h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .sectionTwo_box_p {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+    width: auto;
+  }
+  .sectionTwo_box_button {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 30px;
+    background: #9C0332;
+    width: 234.063px;
+    height: 48.603px;
+  }
+  .sectionTwo_img_1 {
+    width: 344px;
+    height: 236px;
+    flex-shrink: 0;
   }
 }/*# sourceMappingURL=style.css.map */
